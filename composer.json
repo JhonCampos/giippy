@@ -1,0 +1,27 @@
+{
+    "name": "papaya/giippy",
+    "description": "Gii CRUD generator for Yii 2 Framework",
+    "keywords": ["yii2", "gii", "crud"],
+    "homepage": "https://github.com/schmunk42/yii2-giiant",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Papaya LLC",
+            "email": "jhon@cinepapaya.com",
+            "homepage": "http://www.cinepapaya.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.4",
+        "yiisoft/yii2-gii": "~2.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "papaya\\giippy\\": "src"
+        }
+    },
+    "extra": {
+        "bootstrap": "papaya\\giippy\\Bootstrap"
+    }
+}
